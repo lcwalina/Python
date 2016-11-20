@@ -1,6 +1,6 @@
 import operator
 
-file=open("D:\\Uczelnia\Python\plik.txt","r+")
+file=open("plik.txt","r+")
 wordcount={}
 for word in file.read().split():
     if word not in wordcount:
