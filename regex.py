@@ -29,4 +29,4 @@ wyrazenie = r".{4}@.*\..*"
 test_email(wyrazenie)
 #mały eksperyment
 wyrazenie = r"(.{4}|.{11}|.{17})@.*\..*"
-test_email(wyrazenie)
+test_email(wyrazenie) 
